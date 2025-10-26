@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "new-article": "npx zenn new:article"
+    "new-article": "npx zenn new:article --slug ${npm_config_id}_$(uuidgen | tr 'A-f' 'a-f')"
   },
   "repository": {
     "type": "git",
