@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "new-article": "npx zenn new:article --slug ${npm_config_id}_$(uuidgen | tr 'A-f' 'a-f')"
+    "new-article": "npx zenn new:article --slug ${npm_config_id}_$(uuidgen | tr 'A-f' 'a-f')",
+    "preview": "npx zenn preview"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/kktaro/zenn_articles#readme",
   "dependencies": {
-    "zenn-cli": "^0.2.8"
+    "zenn-cli": "^0.2.10"
   }
 }
